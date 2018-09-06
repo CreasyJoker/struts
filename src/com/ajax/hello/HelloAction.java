@@ -16,7 +16,7 @@ public class HelloAction extends ActionSupport {
     @Override
     public String execute() throws Exception {
         ServletActionContext.getResponse().setContentType("text/html;charSet=utf-8");
-       String msg="登录失败";
+       String msg="登录真的太失败了！！！";
         ServletActionContext.getResponse().getWriter().print(msg);
         return NONE;
     }
